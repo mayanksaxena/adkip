@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pikda</title>
+    </head>
+    <body>
+        <h2>Cooking something spicy..</h2>
+        <input type="text" id="search"/><button id="submitButton">Search</button>
+        <div class="container"></div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="static/js/all.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                PIKDA.start("#search", "#submitButton");
+            });
+        </script>
+    </body>
+</html>
